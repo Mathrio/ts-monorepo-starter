@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "src",
+        "tsBuildInfoFile": "../../.build-cache/package-a.tsbuildinfo"
+    },
+    "include": ["src"],
+    "references": [{ "path": "../package-b" }]
+}

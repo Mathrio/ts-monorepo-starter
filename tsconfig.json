@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./packages",
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "module": "commonjs",
+        "paths": {
+            "@typescript-monorepo-starter/*": ["./*/src"]
+        },
+        "rootDir": ".",
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2019"
+    }
+}
