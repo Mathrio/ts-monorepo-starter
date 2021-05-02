@@ -1,4 +1,3 @@
 .build-cache
 dist
-jest.config.js
 node_modules
